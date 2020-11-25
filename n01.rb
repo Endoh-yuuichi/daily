@@ -3,10 +3,6 @@
 #例えば N = 3の場合
 #結果　失敗しました。
 #自分の回答
-n = gets
-n * 3
-puts n
-
-n = gets.to_i
-n * 3
-puts n
+for n in 1..4 do
+  print n = "*"
+end
